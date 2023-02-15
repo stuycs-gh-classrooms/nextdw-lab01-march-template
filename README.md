@@ -1,1 +1,3 @@
-# nextdw-lab01-march-template
+# Lab 01 For NeXT CS
+### Class Period:
+### Name: YOUR NAME HERE
