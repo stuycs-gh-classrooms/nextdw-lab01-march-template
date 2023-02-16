@@ -57,6 +57,11 @@ void draw() {
   `i`: toggle showImage true/false
   'd': toggle showDots true/false
   'm': toggle showLines true/false
+  UP ARROW (keyCode == UP): Decrease the value of resolution (thus increasing the sample size).
+                            Do not go below 2.
+  DOWN ARROW (keyCode == DOWN):  Increase the value of resolution (thus decreasing the sample size).
+
+  Do not work on UP or DOWN until after you have completed all the methods.
 ================================*/
 void keyPressed() {
   if (key == 'r') {
@@ -131,6 +136,13 @@ PImage highlightRed(PImage img) {
 void dots(PImage img, int resolution) {
 }//dots
 
+/*================================
+  Draw a rectangle at the top left corner
+  of the screen and display the current value of resolution.
+================================*/
+void displayResolution() {
+
+}//displayResolution
 
 /*================================
   Imagine that (x, y) is the upper-left corner of a square
@@ -177,11 +189,3 @@ void drawMarchingLine(int x, int y, boolean[] grid, int resolution) {
 void march(PImage img, int resolution, color edge) {
 
 }//dots
-
-/*================================
-  Draw a rectangle at the top left corner
-  of the screen and display the current value of resolution.
-================================*/
-void displayResolution() {
-
-}//displayResolution
